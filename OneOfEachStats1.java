@@ -14,7 +14,7 @@ public class OneOfEachStats1 {
 		int twochildren = 0;
 		int threechildren = 0;
 		int fourchildren = 0;
-		int common = 0 ;
+		String common ;
 		
 			for (int i = 0; i <= t; i++){
 				int sum = 0;
@@ -29,6 +29,7 @@ public class OneOfEachStats1 {
 					}
 					sum ++ ;
 			}
+			sum_all += sum;	
 			if (sum == 2) {	
 				twochildren ++;
 			}
@@ -39,7 +40,7 @@ public class OneOfEachStats1 {
 				fourchildren ++;
 			}
 
-			sum_all += sum;	
+			
 		}
 		
 		averege = sum_all / t ; 
