@@ -77,7 +77,7 @@ public class OneOfEachStats {
 			common="4 or more.";
 		}
 		
-		System.out.println("Averege: " + averege + " children to get at least one of each gender.");
+		System.out.println("Averege: " + average + " children to get at least one of each gender.");
 		System.out.println("Number of families with 2 children: "+ twochildren);
 		System.out.println("Number of families with 3 children: "+ threechildren);
 		System.out.println("Number of families with 4 or more children: "+ fourchildren);
